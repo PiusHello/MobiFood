@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "895031069457",
+    "firebase_url": "https://mobifood-aa072.firebaseio.com",
+    "project_id": "mobifood-aa072",
+    "storage_bucket": "mobifood-aa072.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895031069457:android:fefd6434f1a060f4",
+        "android_client_info": {
+          "package_name": "com.example.mobifood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "895031069457-l728k3fsag0vvnegl1099sr4tan3qvg5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mobifood",
+            "certificate_hash": "e7472f64fd9d1c3604e4d4e5e1f2ae3d90ec9fba"
+          }
+        },
+        {
+          "client_id": "895031069457-prjik1evb0kk5o525je5aci5tkra1oeg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBY89HcSVfrQhFEX_g48ixXlc2cDZaQE-0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "895031069457-prjik1evb0kk5o525je5aci5tkra1oeg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

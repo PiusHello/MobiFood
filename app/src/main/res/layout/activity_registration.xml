@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationActivity">
+
+
+    <ImageView
+
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:id="@+id/foodImage"
+        android:background="@mipmap/ic_back2"/>
+
+    <EditText
+        android:layout_below="@id/foodImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your full name"
+        android:id="@+id/fullName"
+        android:inputType="text"
+        android:layout_marginTop="1dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your email"
+        android:id="@+id/yourEmail"
+        android:inputType="textEmailAddress"
+        android:layout_below="@+id/fullName"
+        android:layout_marginTop="1dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:id="@+id/yourPassword"
+        android:layout_below="@+id/yourEmail"
+        android:layout_marginTop="1dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your phone number"
+        android:id="@+id/yourPhone"
+        android:inputType="phone"
+        android:layout_below="@+id/yourPassword"
+        android:layout_marginTop="1dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/registerUser"
+        android:layout_below="@id/yourPhone"
+        android:layout_marginTop="1dp"
+        android:text="Register"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorPrimary"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:text="Already has an account"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:id="@+id/alreadyHasAccount"
+        android:layout_below="@+id/registerUser"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:text="Developed by iPius"
+        android:textColor="@color/colorBlack"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:id="@+id/developer"
+        android:layout_alignParentBottom="true"
+        android:textSize="15dp"
+        android:textStyle="italic"/>
+
+
+</RelativeLayout>

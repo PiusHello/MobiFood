@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/foodUnderCategoryName"
+            android:text="Food Name"
+            android:textSize="18dp"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlack"
+            android:layout_margin="10dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:id="@+id/foodUnderCategoryImage"
+            android:layout_below="@+id/foodUnderCategoryName"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/foodUnderCategoryDescription"
+            android:text="Description"
+            android:textColor="@color/colorBlack"
+            android:textAlignment="center"
+            android:textSize="15dp"
+            android:layout_below="@id/foodUnderCategoryImage"/>
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/foodUnderCategoryPrice"
+            android:layout_below="@id/foodUnderCategoryDescription"
+            android:text="Price"
+            android:layout_margin="10dp"
+            android:textColor="@color/colorBlack"
+            />
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/foodUnderCategoryButton"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/foodUnderCategoryDescription"
+            android:layout_alignParentRight="true"
+            android:layout_margin="10dp"
+            android:text="add to cart"
+            android:background="@color/colorPrimary"/>
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+</android.support.v7.widget.CardView>
